@@ -61,4 +61,29 @@ into your file.
 
 Make sure your file ends in `.md`!
 
-Once you are finished with your file
+Once you are finished with your file, add it (`git add <filename>`) and
+make a commit (`git commit`). Push your branch:
+
+```bash
+$ git push origin <branchname>
+```
+
+Now go to your fork in your browser: `https://github.com/<username>/students`.
+
+You should see a green `Compare & pull request` button. Click it!
+
+![Compare & pull request button](_static/pull_request.png)
+
+You will be taken to a new page.
+
+![Create Pull Request](_static/create_pull_request.png)
+
+Make sure of the following:
+
+  * You have a meaningful title
+  * You have a meaningful comment (this can be very short)
+  * You are opening the pull request `DevOpsBootcamp:master ... <your username>:<your branch>`. The right side
+    is the branch you are merging, and the left the one you want to merge into.
+  * The right side should say 'Able to merge' in green.
+
+Then click `'Create pull request'` and get our attention -- we will review and comment or merge it in!
