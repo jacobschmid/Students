@@ -18,7 +18,7 @@ First, click on the `fork` button near the upper-right corner to fork the reposi
 After that: clone the repository:
 
 ```bash
-$ git clone https://github.com/<username>/students
+$ git clone git@github.com:devopsbootcamp/students
 ```
 
 This will make a directory in the present working directory called `students`. Inside
