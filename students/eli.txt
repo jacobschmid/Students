@@ -1,0 +1,3 @@
+Eli is a pretty cool guy.
+He uses vim because it's way better than emacs.
+For ALL Definitions of better...
